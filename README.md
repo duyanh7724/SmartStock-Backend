@@ -1,7 +1,6 @@
 # 📦 SmartStock - Backend API (HUTECH Capstone Project)
 
-Đây là hệ thống API RESTful phục vụ cho dự án **SmartStock - Ứng dụng quản lý kho thông minh**. Dự án được phát triển bởi **Nguyễn Duy Anh** (MSSV: 2280600075) dưới sự hướng dẫn của Giảng viên **Võ Hoàng Khang** tại HUTECH.
-
+Đây là hệ thống API RESTful phục vụ cho dự án **SmartStock - Ứng dụng quản lý kho thông minh**. Dự án được phát triển bởi **Nguyễn Duy Anh** (MSSV: 2280600075)
 ## 🚀 Công nghệ sử dụng
 * [cite_start]**Ngôn ngữ:** PHP 8.x [cite: 316]
 * [cite_start]**Cơ sở dữ liệu:** MySQL (Thiết kế chuẩn hóa 3NF) [cite: 220, 276]
@@ -25,6 +24,4 @@ Hệ thống quản lý các bảng chính:
 
 ## 🔗 Liên kết liên quan
 * **Frontend (Flutter):** [Link tới Repo Frontend của bạn]
-
----
 © 2025 - Nguyễn Duy Anh - HUTECH University
