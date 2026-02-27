@@ -1,22 +1,23 @@
 # 📦 SmartStock - Backend API (HUTECH Capstone Project)
 
-[cite_start]Đây là hệ thống API RESTful phục vụ cho dự án **SmartStock - Ứng dụng quản lý kho thông minh**[cite: 4, 13]. [cite_start]Dự án được phát triển nhằm tối ưu hóa quy trình vận hành kho bãi cho các doanh nghiệp vừa và nhỏ[cite: 23, 143].
+Đây là hệ thống API RESTful phục vụ cho dự án **SmartStock - Ứng dụng quản lý kho thông minh**. Dự án được phát triển nhằm tối ưu hóa quy trình vận hành kho bãi cho các doanh nghiệp vừa và nhỏ.
 
 ## 🚀 Công nghệ sử dụng
-* [cite_start]**Ngôn ngữ:** PHP 8.x[cite: 316].
-* [cite_start]**Cơ sở dữ liệu:** MySQL (Thiết kế chuẩn hóa 3NF)[cite: 276].
-* [cite_start]**Kiến trúc:** RESTful API (Mô hình Client-Server)[cite: 60, 195].
-* [cite_start]**Dịch vụ tích hợp:** Firebase Authentication & Realtime Database, VietQR API[cite: 209, 215, 228].
+* **Ngôn ngữ:** PHP 8.x.
+* **Cơ sở dữ liệu:** MySQL (Thiết kế chuẩn hóa 3NF).
+* **Kiến trúc:** RESTful API (Mô hình Client-Server).
+* **Dịch vụ tích hợp:** Firebase Authentication & Realtime Database, VietQR API.
 
 ## 🛠 Tính năng chính
-* [cite_start]**Xác thực đa cấp:** Đăng nhập bằng tài khoản nội bộ (Admin/Staff) hoặc Google (Customer)[cite: 264, 322].
-* [cite_start]**Quản lý kho thông minh:** Thực hiện các thao tác CRUD sản phẩm, danh mục và nhà cung cấp[cite: 25, 152].
-* [cite_start]**Quy trình đơn hàng bài bản:** Theo dõi trạng thái đơn hàng (Chờ duyệt, Đã duyệt, Hủy) và phê duyệt dựa trên ảnh xác thực giao dịch[cite: 154, 266, 346].
-* [cite_start]**Tự động hóa hoàn kho:** Hệ thống tự động hủy đơn hàng và hoàn lại số lượng tồn kho nếu không được phê duyệt sau 28 giờ[cite: 273, 403].
-* [cite_start]**Bảo mật hệ thống:** Mật khẩu được băm (Hash), API yêu cầu xác thực Bearer Token và lưu trữ nhật ký hoạt động (Login Log)[cite: 253, 326, 357].
+* **Xác thực đa cấp:** Đăng nhập bằng tài khoản nội bộ (Admin/Staff) hoặc Google (Customer).
+* **Quản lý kho thông minh:** Thực hiện các thao tác CRUD sản phẩm, danh mục và nhà cung cấp.
+* **Quy trình đơn hàng bài bản:** Theo dõi trạng thái đơn hàng (Chờ duyệt, Đã duyệt, Hủy) và phê duyệt dựa trên ảnh xác thực giao dịch.
+* **Tự động hóa hoàn kho:** Hệ thống tự động hủy đơn hàng và hoàn lại số lượng tồn kho nếu không được phê duyệt sau 28 giờ.
+* **Bảo mật hệ thống:** Mật khẩu được băm (Hash), API yêu cầu xác thực Bearer Token và lưu trữ nhật ký hoạt động.
 
 ## 📊 Cấu trúc cơ sở dữ liệu
-[cite_start]Hệ thống quản lý các thực thể chính bao gồm: Người dùng (users), Sản phẩm (product), Đơn hàng (customer_orders), Thông tin ngân hàng (bank_info) và Nhật ký hệ thống[cite: 166, 281, 283, 285].
+Hệ thống quản lý các thực thể chính bao gồm: Người dùng (users), Sản phẩm (product), Đơn hàng (customer_orders), Thông tin ngân hàng (bank_info) và Nhật ký hệ thống.
 
 ---
-[cite_start]**Sinh viên thực hiện:** Nguyễn Duy Anh (MSSV: 2280600075)[cite: 9, 18].
+**Sinh viên thực hiện:** Nguyễn Duy Anh (MSSV: 2280600075).
+**Giảng viên hướng dẫn:** Võ Hoàng Khang.
